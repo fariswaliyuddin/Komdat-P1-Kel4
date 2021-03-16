@@ -38,7 +38,9 @@ Koozic adalah layanan streaming musik berbasis server yang ada pada aplikasi Odo
 
 ## Otomatisasi
 [`^ kembali ke atas ^`](#)
+
 Otomatisasi dilakukan jika user merasa kesulitan dalam menginstall KooZic. Otomatisasi dilakukan dengan menggunakan `script shell` yang otomatis akan menjalankan semua perintah di terminal. Script shell untuk `install` dan `uninstall` dapat dilihat dibawah ini:
+
 1. Instalasi
     Di terminal, jalankan skrip berikut:
     ```sh
