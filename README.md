@@ -7,8 +7,8 @@ Koozic adalah layanan streaming musik berbasis server yang ada pada aplikasi Odo
     Untuk alasan keamanan, disarankan membuat user dan tidak memakai user root. Contohnya seperti `koozic`.
 2. Install Prasyarat
     Sebelum instalasi, pastikan semua package dan pip dependencies sudah terpasang. Berikut packages yang dimaksud:
-    - Untuk DEB-based OS: apt packages, pip packages
-    - Untuk RPM-based OS: dnf packages, extra pip packages
+    - Untuk DEB-based OS: [apt packages](https://github.com/DocMarty84/koozic_install/blob/fdc1649538d75675cfebe4cf4f6ab6fb88eea62c/koozic_install.py#L268-L309), [pip packages](https://github.com/DocMarty84/koozic_install/blob/fdc1649538d75675cfebe4cf4f6ab6fb88eea62c/koozic_install.py#L312-L315)
+    - Untuk RPM-based OS: [dnf packages](https://github.com/DocMarty84/koozic_install/blob/fdc1649538d75675cfebe4cf4f6ab6fb88eea62c/koozic_install.py#L327-L381), [extra pip packages](https://github.com/DocMarty84/koozic_install/blob/fdc1649538d75675cfebe4cf4f6ab6fb88eea62c/koozic_install.py#L384-L387)
 
     pip digunakan untuk menginstall dependencies (bukan menggunakan package manager)
 
