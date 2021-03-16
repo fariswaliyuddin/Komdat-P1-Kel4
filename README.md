@@ -51,9 +51,15 @@ Koozic adalah layanan streaming musik berbasis server yang ada pada aplikasi Odo
 ## Cara Pemakaian
 
 ## Pembahasan
+### Free & Open-Source
+### Search Thanks to ID3 Tags
+### Enjoy Powerful Playlists
+### Any music or video format
+### HTML5 Player
+### Awesome Backbone
 
 ## Referensi
-   1. [Tentang KooZic](https://github.com/DocMarty84/koozic) - DocMarty84
-   2. [Instalasi Otomatis](https://koozic.net/installation/) - koozic.net
-   3. [Instalasi Manual](https://doc.koozic.net/installation/detailed_instructions.html) - doc.koozic.net
-   4. [Review KooZic](https://www.compsmag.com/alternative/software/koozic/) - compsmag.com
+    [Tentang KooZic](https://github.com/DocMarty84/koozic) - DocMarty84
+    [Instalasi Otomatis](https://koozic.net/installation/) - koozic.net
+    [Instalasi Manual](https://doc.koozic.net/installation/detailed_instructions.html) - doc.koozic.net
+    [Review KooZic](https://www.compsmag.com/alternative/software/koozic/) - compsmag.com
