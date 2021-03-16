@@ -66,7 +66,7 @@ Karna fungsionalitas sistemnya yang bisa dibilang cukup minimum, website koozic 
 
 1. Pengguna diharuskan login untuk dapat menggunakan layanan. Untuk pengguna baru dapat menggunakan email dan password **admin**.
 
-<img src="images/login.png">
+<img src="images/login.png" style="width: 80%;" align="center">
 
 2. Setelah login berhasil, user akan masuk ke halaman dashboard musik. Disini user dapat melihat album ataupun musik yang telah dimasukan ke dalam sistem. User dapat memainkan musik yang diinginkan atau memasukkannya ke dalam playlist yang dapat diakes melalui menu navigasi.
 
