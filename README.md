@@ -41,8 +41,7 @@ Koozic adalah layanan streaming musik berbasis server yang ada pada aplikasi Odo
 
 Otomatisasi dilakukan jika user merasa kesulitan dalam menginstall KooZic. Otomatisasi dilakukan dengan menggunakan `script shell` yang otomatis akan menjalankan semua perintah di terminal. Script shell untuk `install` dan `uninstall` dapat dilihat dibawah ini:
 
-1. Instalasi
-    Di terminal, jalankan skrip berikut:
+1. Instalasi, jalankan skrip berikut:
     ```sh
     wget https://raw.githubusercontent.com/DocMarty84/koozic_install/v3/koozic_install.py -O koozic_install.
     ```
@@ -51,8 +50,7 @@ Otomatisasi dilakukan jika user merasa kesulitan dalam menginstall KooZic. Otoma
     ```
     Kemudian akses KooZic pada browser Anda di http://localhost:8069 dengan default login dan password nya adalah `admin`. Jangan lupa untuk mengganti password setelah instalasi.
     
-2. Uninstalasi
-    Untuk uninstalling, jalankan skrip berikut:
+2. Uninstalasi, jalankan skrip berikut:
    ```sh
    sudo python3 koozic_install.py uninstall
    ```
