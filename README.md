@@ -38,10 +38,8 @@ Koozic adalah layanan streaming musik berbasis server yang ada pada aplikasi Odo
 
 ## Otomatisasi
 [`^ kembali ke atas ^`](#)
-
-Otomatisasi dilakukan jika user merasa kesulitan dalam menginstall KooZic. Otomatisasi dilakukan dengan menggunakan `script shell` yang otomatis akan menjalankan semua perintah di terminal. Script shell untuk `install` dan `uninstall` dapat dilihat dibawah ini:
-
-1. Instalasi, jalankan skrip berikut:
+1. Instalasi
+    Di terminal, jalankan skrip berikut:
     ```sh
     wget https://raw.githubusercontent.com/DocMarty84/koozic_install/v3/koozic_install.py -O koozic_install.
     ```
@@ -50,11 +48,13 @@ Otomatisasi dilakukan jika user merasa kesulitan dalam menginstall KooZic. Otoma
     ```
     Kemudian akses KooZic pada browser Anda di http://localhost:8069 dengan default login dan password nya adalah `admin`. Jangan lupa untuk mengganti password setelah instalasi.
     
-2. Uninstalasi, jalankan skrip berikut:
+2. Uninstalasi
+    Untuk uninstalling, jalankan skrip berikut:
    ```sh
    sudo python3 koozic_install.py uninstall
    ```
    Uninstalasi tidak termasuk penghapusan data pada PostgreSQL, untuk itu remove FFMpeg yang ada pada direktori `/usr/local/bin/ffmpeg`
+    Untuk uninstalling, jalankan skrip berikut:
     
 ## Cara Penggunaan
 [`^ kembali ke atas ^`](#)
@@ -113,18 +113,8 @@ Karna fungsionalitas sistemnya yang bisa dibilang cukup minimum, website koozic 
 ## Pembahasan
 [`^ kembali ke atas ^`](#)
 
-### Free & Open-Source
-Mengandalkan Odoo, diterbitkan di bawah lisensi LGPL, OOMusic dan OOVideo, diterbitkan di bawah lisensi MIT.
-### Search Thanks to ID3 Tags
-Tag ID3 memungkinkan Anda mengatur musik dengan mudah. Temukan dengan cepat apa yang Anda cari: judul lagu, album, artis, atau genre! KooZic menyediakan fungsionalitas pencarian yang kuat.
-### Enjoy Powerful Playlists
-Buat daftar putar Anda dalam beberapa detik! Tambahkan lagu, album, atau bahkan seluruh koleksi artis ke daftar putar Anda hanya dengan satu klik!
-### Any music or video format
-Media di-transcoding dengan cepat! MP3? OGG? FLAC? MKV? Tidak masalah: KooZic menangani semuanya berkat FFmpeg!
-### HTML5 Player
-Menggunakan howler.js dan Clappr, alat audio dan video yang sederhana namun kuat. Mereka memanfaatkan kemampuan pemutar media browser Anda tanpa plugin pihak ketiga.
-### Awesome Backbone
-KooZic menggunakan versi ringan dari Odoo sebagai tulang punggung. Kami memanfaatkan kekuatan perangkat lunak untuk fokus pada satu tugas: mengembangkan perangkat lunak streaming musik dan video.
+1. Kelebihan dan Kekurangan
+2. Perbandingan dengan aplikasi sejenis
 
 ## Referensi
 [`^ kembali ke atas ^`](#)
