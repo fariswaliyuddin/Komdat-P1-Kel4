@@ -9,6 +9,7 @@
 Koozic adalah layanan streaming musik berbasis server yang ada pada aplikasi Odoo. KooZic memungkinkan penggunanya untuk mengakses koleksi musik mereka dimanapun dan dari perangkat apapun.
 
 ## Instalasi
+[`^ kembali ke atas ^`](#)
 
 1. Membuat Spesifik User
     Untuk alasan keamanan, disarankan membuat user dan tidak memakai user root. Contohnya seperti `koozic`.
@@ -36,6 +37,7 @@ Koozic adalah layanan streaming musik berbasis server yang ada pada aplikasi Odo
     Setelah 10-20 detik launching dan pemasangan database, kita dapat menggunakan KooZic di alamat http://localhost:8069 dengan email/password `admin` .
 
 ## Otomatisasi
+[`^ kembali ke atas ^`](#)
 1. Instalasi
     Di terminal, jalankan skrip berikut:
     ```sh
@@ -59,6 +61,7 @@ Koozic adalah layanan streaming musik berbasis server yang ada pada aplikasi Odo
     Uninstalasi tidak termasuk penghapusan data pada PostgreSQL, untuk itu remove FFMpeg yang ada pada direktori `/usr/local/bin/ffmpeg`
     
 ## Cara Penggunaan
+[`^ kembali ke atas ^`](#)
 
 Karna fungsionalitas sistemnya yang bisa dibilang cukup minimum, website koozic ini dinilai cukup mudah untuk digunakan. Cara penggunaan website ini adalah sebagai berikut:
 
@@ -112,6 +115,8 @@ Karna fungsionalitas sistemnya yang bisa dibilang cukup minimum, website koozic 
 </p>
 
 ## Pembahasan
+[`^ kembali ke atas ^`](#)
+
 ### Free & Open-Source
 Mengandalkan Odoo, diterbitkan di bawah lisensi LGPL, OOMusic dan OOVideo, diterbitkan di bawah lisensi MIT.
 ### Search Thanks to ID3 Tags
@@ -126,6 +131,8 @@ Menggunakan howler.js dan Clappr, alat audio dan video yang sederhana namun kuat
 KooZic menggunakan versi ringan dari Odoo sebagai tulang punggung. Kami memanfaatkan kekuatan perangkat lunak untuk fokus pada satu tugas: mengembangkan perangkat lunak streaming musik dan video.
 
 ## Referensi
+[`^ kembali ke atas ^`](#)
+
    1. [Tentang KooZic](https://github.com/DocMarty84/koozic) - DocMarty84
    2. [Instalasi Otomatis](https://koozic.net/installation/) - koozic.net
    3. [Instalasi Manual](https://doc.koozic.net/installation/detailed_instructions.html) - doc.koozic.net
