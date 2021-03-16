@@ -65,7 +65,7 @@ Menggunakan howler.js dan Clappr, alat audio dan video yang sederhana namun kuat
 KooZic menggunakan versi ringan dari Odoo sebagai tulang punggung. Kami memanfaatkan kekuatan perangkat lunak untuk fokus pada satu tugas: mengembangkan perangkat lunak streaming musik dan video.
 
 ## Referensi
-    [Tentang KooZic](https://github.com/DocMarty84/koozic) - DocMarty84
-    [Instalasi Otomatis](https://koozic.net/installation/) - koozic.net
-    [Instalasi Manual](https://doc.koozic.net/installation/detailed_instructions.html) - doc.koozic.net
-    [Review KooZic](https://www.compsmag.com/alternative/software/koozic/) - compsmag.com
+   1. [Tentang KooZic](https://github.com/DocMarty84/koozic) - DocMarty84
+   2. [Instalasi Otomatis](https://koozic.net/installation/) - koozic.net
+   3. [Instalasi Manual](https://doc.koozic.net/installation/detailed_instructions.html) - doc.koozic.net
+   4. [Review KooZic](https://www.compsmag.com/alternative/software/koozic/) - compsmag.com
