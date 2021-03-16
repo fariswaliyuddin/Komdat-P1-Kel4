@@ -38,8 +38,10 @@ Koozic adalah layanan streaming musik berbasis server yang ada pada aplikasi Odo
 
 ## Otomatisasi
 [`^ kembali ke atas ^`](#)
-1. Instalasi
-    Di terminal, jalankan skrip berikut:
+
+Otomatisasi dilakukan jika user merasa kesulitan dalam menginstall KooZic. Otomatisasi dilakukan dengan menggunakan `script shell` yang otomatis akan menjalankan semua perintah di terminal. Script shell untuk `install` dan `uninstall` dapat dilihat dibawah ini:
+
+1. Instalasi, jalankan skrip berikut:
     ```sh
     wget https://raw.githubusercontent.com/DocMarty84/koozic_install/v3/koozic_install.py -O koozic_install.
     ```
@@ -48,8 +50,7 @@ Koozic adalah layanan streaming musik berbasis server yang ada pada aplikasi Odo
     ```
     Kemudian akses KooZic pada browser Anda di http://localhost:8069 dengan default login dan password nya adalah `admin`. Jangan lupa untuk mengganti password setelah instalasi.
     
-2. Uninstalasi
-    Untuk uninstalling, jalankan skrip berikut:
+2. Uninstalasi, jalankan skrip berikut:
    ```sh
    sudo python3 koozic_install.py uninstall
    ```
@@ -113,8 +114,32 @@ Karna fungsionalitas sistemnya yang bisa dibilang cukup minimum, website koozic 
 ## Pembahasan
 [`^ kembali ke atas ^`](#)
 
-1. Kelebihan dan Kekurangan
-2. Perbandingan dengan aplikasi sejenis
+#### Kelebihan KooZic:
+* Layout yang menarik (clean design)
+* Memudahkan user untuk update konten dashboard
+* Performa yang baik
+* Free open source
+* Dapat mengunggah baik musik maupun video dan dalam format yang beragam
+* Support juga untuk windows
+* Menggunakan metode self-hosted
+* Setup yang mudah
+Kekurangan KooZic:
+* User Experience yang membingungkan pemula
+* Penggunaan fitur atau modul yang lengkap menyebabkan proses loading dari aplikasi ini menjadi sangat lambat
+* Penggunaan resource memory aplikasi ini cukup besar, terutama ketika menggunakan fitur atau modul yang lengkap.
+
+
+#### Bandingkan dengan aplikasi web lain yang sejenis
+Jika dibandingkan dengan aplikasi sejenisnya, Spotify maka koozic memiliki cukup banyak kekurangan yang di antaranya:
+* Tidak mobile friendly
+* Music tidak lengkap
+* Spotify mempunyai pengguna yang jauh lebih banyak dari koozic
+* Spotify lebih populer
+* Proses instalasi koozic lebih sulit dibandingkan spotify yang instan
+ 
+Youtube music
+Adapun Deezer dan Pandora yang memiliki performa dan user experience yang lebih baik, hanya saja keduanya berbayar dan perlu berlangganan
+
 
 ## Referensi
 [`^ kembali ke atas ^`](#)
