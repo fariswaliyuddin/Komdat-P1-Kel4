@@ -90,11 +90,11 @@ Karna fungsionalitas sistemnya yang bisa dibilang cukup minimum, website koozic 
 
 7. Tampilan saat memutar video adalah sebagai berikut.
 
-<img src="images/video-play.png>
+<img src="images/video-play.png">
 
 8. Admin dapat menambahkan user baru dan memberikan akses tertentu kepada user tersebut melalui halaman *settings*.
 
-<img src="images/setting.png>
+<img src="images/setting.png">
 
 ## Pembahasan
 ### Free & Open-Source
