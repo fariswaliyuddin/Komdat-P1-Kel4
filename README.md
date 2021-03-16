@@ -72,31 +72,46 @@ Karna fungsionalitas sistemnya yang bisa dibilang cukup minimum, website koozic 
 
 2. Setelah login berhasil, user akan masuk ke halaman dashboard musik. Disini user dapat melihat album ataupun musik yang telah dimasukan ke dalam sistem. User dapat memainkan musik yang diinginkan atau memasukkannya ke dalam playlist yang dapat diakes melalui menu navigasi.
 
-<img src="images/home.png">
+
+<p align="center">
+    <img src="images/home.png" width="700">
+</p>
 
 3. Untuk dapat memasukan music atau video ke dalam sistem, pengguna terlebih dahulu harus melakukan konfigurasi folder dengan mengakses *configuration folder * pada menu navigasi.
 
-<img src ="images/menu.png">
+<p align="center">
+    <img src ="images/menu.png">
+</p>
 
 4. Di halaman configuration pengguna dapat menambahkan **path** baru dimana sistem akan secara otomatis dapat melakukan scanning **path** tersebut untuk mendeteksi file musik / video.
 
-<img src ="images/folder.png">
+<p align="center">
+    <img src ="images/folder.png" width="700">
+</p>
 
 5. Tampilan saat melakukan konfigurasi path adalah sebagai berikut.
 
-<img src ="images/edit-folder.png">
+<p align="center">
+    <img src ="images/edit-folder.png" width="700">
+</p>
 
 6. Selain memutar musik. User juga dapat memutar video pada sistem ini. Untuk mengaksesnya user dapat membuka melalui menu navigasi di kiri atas.
 
-<img src ="images/nav.png">
+<p align="center">
+    <img src ="images/nav.png">
+</p>
 
 7. Tampilan saat memutar video adalah sebagai berikut.
 
-<img src="images/video-play.png">
+<p align="center">
+    <img src="images/video-play.png" width="700">
+</p>
 
 8. Admin dapat menambahkan user baru dan memberikan akses tertentu kepada user tersebut melalui halaman *settings*.
 
-<img src="images/setting.png">
+<p align="center">
+    <img src="images/setting.png" width="700">
+</p>
 
 ## Pembahasan
 ### Free & Open-Source
