@@ -52,11 +52,17 @@ Koozic adalah layanan streaming musik berbasis server yang ada pada aplikasi Odo
 
 ## Pembahasan
 ### Free & Open-Source
+Mengandalkan Odoo, diterbitkan di bawah lisensi LGPL, OOMusic dan OOVideo, diterbitkan di bawah lisensi MIT.
 ### Search Thanks to ID3 Tags
+Tag ID3 memungkinkan Anda mengatur musik dengan mudah. Temukan dengan cepat apa yang Anda cari: judul lagu, album, artis, atau genre! KooZic menyediakan fungsionalitas pencarian yang kuat.
 ### Enjoy Powerful Playlists
+Buat daftar putar Anda dalam beberapa detik! Tambahkan lagu, album, atau bahkan seluruh koleksi artis ke daftar putar Anda hanya dengan satu klik!
 ### Any music or video format
+Media di-transcoding dengan cepat! MP3? OGG? FLAC? MKV? Tidak masalah: KooZic menangani semuanya berkat FFmpeg!
 ### HTML5 Player
+Menggunakan howler.js dan Clappr, alat audio dan video yang sederhana namun kuat. Mereka memanfaatkan kemampuan pemutar media browser Anda tanpa plugin pihak ketiga.
 ### Awesome Backbone
+KooZic menggunakan versi ringan dari Odoo sebagai tulang punggung. Kami memanfaatkan kekuatan perangkat lunak untuk fokus pada satu tugas: mengembangkan perangkat lunak streaming musik dan video.
 
 ## Referensi
     [Tentang KooZic](https://github.com/DocMarty84/koozic) - DocMarty84
