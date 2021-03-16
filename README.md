@@ -1,7 +1,7 @@
 <h1 align="center"><img src="images/logo.png" width=400></h1>
 
 
-[Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-penggunaan) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+[Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Penggunaan](#cara-penggunaan) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:
 
 
