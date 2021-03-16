@@ -1,8 +1,8 @@
 <h1 align="center"><img src="images/logo.png" width=400></h1>
 
 
-[Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Penggunaan](#cara-penggunaan) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
-:---:|:---:|:---:|:---:|:---:|:---:
+[Instalasi](#instalasi) | [Otomatisasi](#otomatisasi) | [Cara Penggunaan](#cara-penggunaan) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+:---:|:---:|:---:|:---:|:---:
 
 
 # KooZic
@@ -34,8 +34,6 @@ Koozic adalah layanan streaming musik berbasis server yang ada pada aplikasi Odo
     Jika menggunakan Fedora, tambahkan skrip ``--db-template=template0`` ke command line. Hal ini juga mungkin berlaku di tipe distribusi yang lain.
     
     Setelah 10-20 detik launching dan pemasangan database, kita dapat menggunakan KooZic di alamat http://localhost:8069 dengan email/password `admin` .
-
-## Konfigurasi
 
 ## Otomatisasi
 1. Instalasi
