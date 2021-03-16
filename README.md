@@ -55,7 +55,6 @@ Otomatisasi dilakukan jika user merasa kesulitan dalam menginstall KooZic. Otoma
    sudo python3 koozic_install.py uninstall
    ```
    Uninstalasi tidak termasuk penghapusan data pada PostgreSQL, untuk itu remove FFMpeg yang ada pada direktori `/usr/local/bin/ffmpeg`
-    Untuk uninstalling, jalankan skrip berikut:
     
 ## Cara Penggunaan
 [`^ kembali ke atas ^`](#)
