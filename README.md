@@ -49,16 +49,12 @@ Koozic adalah layanan streaming musik berbasis server yang ada pada aplikasi Odo
     Kemudian akses KooZic pada browser Anda di http://localhost:8069 dengan default login dan password nya adalah `admin`. Jangan lupa untuk mengganti password setelah instalasi.
     
 2. Uninstalasi
-   Untuk uninstalling, jalankan skrip berikut:
+    Untuk uninstalling, jalankan skrip berikut:
    ```sh
    sudo python3 koozic_install.py uninstall
    ```
    Uninstalasi tidak termasuk penghapusan data pada PostgreSQL, untuk itu remove FFMpeg yang ada pada direktori `/usr/local/bin/ffmpeg`
     Untuk uninstalling, jalankan skrip berikut:
-    ```sh
-    sudo python3 koozic_install.py uninstall
-    ```
-    Uninstalasi tidak termasuk penghapusan data pada PostgreSQL, untuk itu remove FFMpeg yang ada pada direktori `/usr/local/bin/ffmpeg`
     
 ## Cara Penggunaan
 [`^ kembali ke atas ^`](#)
