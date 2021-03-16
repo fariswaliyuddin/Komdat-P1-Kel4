@@ -1,7 +1,8 @@
 <h1 align="center"><img src="images/logo.png" width=400></h1>
 
-[Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
-:---:|:---:|:---:|:---:|:---:|:---:|:---:
+
+[Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-penggunaan) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+:---:|:---:|:---:|:---:|:---:|:---:
 
 
 # KooZic
@@ -58,7 +59,41 @@ Koozic adalah layanan streaming musik berbasis server yang ada pada aplikasi Odo
    ```
    Uninstalasi tidak termasuk penghapusan data pada PostgreSQL, untuk itu remove FFMpeg yang ada pada direktori `/usr/local/bin/ffmpeg`
 
-## Cara Pemakaian
+## Cara Penggunaan
+
+Karna fungsionalitas sistemnya yang bisa dibilang cukup minimum, website koozic ini dinilai cukup mudah untuk digunakan. Cara penggunaan website ini adalah sebagai berikut:
+
+1. Pengguna diharuskan login untuk dapat menggunakan layanan. Untuk pengguna baru dapat menggunakan email dan password **admin**.
+
+<img src="images/login.png">
+
+2. Setelah login berhasil, user akan masuk ke halaman dashboard musik. Disini user dapat melihat album ataupun musik yang telah dimasukan ke dalam sistem. User dapat memainkan musik yang diinginkan atau memasukkannya ke dalam playlist yang dapat diakes melalui menu navigasi.
+
+<img src="images/home.png">
+
+3. Untuk dapat memasukan music atau video ke dalam sistem, pengguna terlebih dahulu harus melakukan konfigurasi folder dengan mengakses *configuration folder * pada menu navigasi.
+
+<img src ="images/menu.png">
+
+4. Di halaman configuration pengguna dapat menambahkan **path** baru dimana sistem akan secara otomatis dapat melakukan scanning **path** tersebut untuk mendeteksi file musik / video.
+
+<img src ="images/folder.png">
+
+5. Tampilan saat melakukan konfigurasi path adalah sebagai berikut.
+
+<img src ="images/edit-folder.png">
+
+6. Selain memutar musik. User juga dapat memutar video pada sistem ini. Untuk mengaksesnya user dapat membuka melalui menu navigasi di kiri atas.
+
+<img src ="images/nav.png">
+
+7. Tampilan saat memutar video adalah sebagai berikut.
+
+<img src="images/video-play.png>
+
+8. Admin dapat menambahkan user baru dan memberikan akses tertentu kepada user tersebut melalui halaman *settings*.
+
+<img src="images/setting.png>
 
 ## Pembahasan
 
