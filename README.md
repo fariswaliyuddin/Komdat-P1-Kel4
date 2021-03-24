@@ -11,30 +11,69 @@ Koozic adalah layanan streaming musik berbasis server yang ada pada aplikasi Odo
 ## Instalasi
 [`^ kembali ke atas ^`](#)
 
-1. Membuat Spesifik User
-    Untuk alasan keamanan, disarankan membuat user dan tidak memakai user root. Contohnya seperti `koozic`.
-2. Install Prasyarat
-    Sebelum instalasi, pastikan semua package dan pip dependencies sudah terpasang. Berikut packages yang dimaksud:
-    - Untuk DEB-based OS: [apt packages](https://github.com/DocMarty84/koozic_install/blob/fdc1649538d75675cfebe4cf4f6ab6fb88eea62c/koozic_install.py#L268-L309), [pip packages](https://github.com/DocMarty84/koozic_install/blob/fdc1649538d75675cfebe4cf4f6ab6fb88eea62c/koozic_install.py#L312-L315)
-    - Untuk RPM-based OS: [dnf packages](https://github.com/DocMarty84/koozic_install/blob/fdc1649538d75675cfebe4cf4f6ab6fb88eea62c/koozic_install.py#L327-L381), [extra pip packages](https://github.com/DocMarty84/koozic_install/blob/fdc1649538d75675cfebe4cf4f6ab6fb88eea62c/koozic_install.py#L384-L387)
-
-    pip digunakan untuk menginstall dependencies (bukan menggunakan package manager)
-
-3. Set-up PostgreSQL
-    Selanjutnya set-up PostgreSQL. Asumsikan kita akan menjalankan KooZic dengan nama user koozic, maka kita perlu membuat user PosrgreSQL seperti ini
+A. Docker Engine
+Docker Engine adalah prerequisites untuk menggunakan Docker Compose di OS Linux.
+1. Update index package
     ```sh
-    su - postgres -c "createuser -s koozic"
+    sudo apt-get update
     ```
-4. Download KooZic
-    Setelah setup PostgreSQL, download versi terbaru dari KooZic menggunakan file `koozic-*.tar.gz` lalu uncompress arsip yang telah didownload
-5. Launch KooZic
-    Terakhir, eksekusi skrip dibawah ini sebagai user `koozic` : 
+2. Install versi terbaru Docker Engine dan kontainernya
     ```sh
-    ./odoo-bin --workers=4 -d koozic-v3 --limit-time-cpu=1800 --limit-time-real=3600 --without-demo=all --no-database-list
+    sudo apt-get install docker-ce docker-ce-cli co
     ```
-    Jika menggunakan Fedora, tambahkan skrip ``--db-template=template0`` ke command line. Hal ini juga mungkin berlaku di tipe distribusi yang lain.
+3. Periksa apakah Docker Engine sudah terinstall dengan running hello-world image
+    ```sh
+    sudo docker run hello-world
+    ```
+    Jika berhasil, maka akan print pesan informasi yang dibutuhkan dan exit.
     
-    Setelah 10-20 detik launching dan pemasangan database, kita dapat menggunakan KooZic di alamat http://localhost:8069 dengan email/password `admin` .
+B. Docker Compose
+1. Download stable release dari Docker Compose dengan menggunakan command ini
+    ```sh
+    sudo curl -L "https://github.com/docker/compose/releases/download/1.28.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+    ```
+2. Terapkan executable permission ke biner
+    ```sh
+    sudo chmod +x /usr/local/bin/docker-compose
+    ```
+3. Cek instalasi dengan mengecek versi dari Docker Compose
+    ```sh
+    docker-compose --version docker-compose version 1.28.5, build 1110
+    ```
+C. Koozic
+1. Download `koozic-*-docker.tar.gz` di Github Koozic
+2. Edit `docker-compose.yml` dan `/music` dengan musik folder yang ingin dibagikan
+3. Build & Run
+    ```sh
+    docker-compose up -d
+    ```
+    Setelah 10 - 20 detik image di built. KooZic sudah bisa digunakan di browser dengan alamat `http://localhost:8069`. Log in dengan email dan password admin.
+    
+D. Port Forwarding SSH
+    Setelah kita menginstal KooZic, kita harus melakukan port forwarding ssh agar KooZic bisa diakses di Windows
+1. Install openssh-server
+    ```sh
+    sudo apt install openssh-server
+    ```
+2. Lalu enable ssh-nya dari sistem
+    ```sh
+    sudo systemctl enable ssh
+    ```
+3. Jalankan shared ssh
+    ```sh
+    sudo systemctl start ssh
+    ```
+4. Aktifkan firewall untuk ssh
+    ```sh
+    sudo ufw allow ssh
+    ```
+5. Lalu enable firewall nya
+```sh
+sudo ufw enable
+```
+Lalu kita tetapkan aturan port forwarding pada virtual box.
+Buka settings -> Tab Network -> Advanced -> Port Forwarding
+Setelah selesai, kita dapat mengakses server melalui ssh dari windows dan menjalankan aplikasi KooZic.
 
 ## Otomatisasi
 [`^ kembali ke atas ^`](#)
